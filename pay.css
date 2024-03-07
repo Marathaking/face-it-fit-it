@@ -1,0 +1,90 @@
+
+ 
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230621/pngtree-illustration-of-3d-personal-bank-account-and-credit-card-with-money-image_3653857.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 3000%;
+}
+ 
+.container {
+    height: 1000px;
+    width: 400px;
+    background-color: transparent;
+    top: 65%;
+    left: 53%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
+.text {
+    text-align: center;
+    font-size: 300%;
+    text-decoration: aliceblue;
+    color:aqua;
+    margin-top: 5px;
+    background-color: black;
+    border-radius: 30px;
+}
+ 
+.course {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.price {
+    font-size: 60px;
+    margin-left: 5px;
+    bottom: 15px;
+    position: relative;
+}
+ 
+.pay-now-btn {
+    color:aqua;
+    height: 50px;
+    width: 250px;
+    margin: 5px 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+}
+ 
+.card-details {
+    background:transparent;
+    color: rgb(9, 9, 9);
+    margin: 10px 30px;
+    padding: 10px; 
+    font-size: 15px;
+}
+ 
+.card-details p {
+    font-size: 20px;
+    text-align: center;
+}
+ 
+.card-details label {
+    font-size: 15px;
+    line-height: 35px;
+    
+}
+.pay{
+    cursor: pointer;
+    color:aqua;
+    height: 50px;
+    width: 250px;
+    border: none;
+    margin: 5px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+}
+.card{
+    background:transparent;
+    color: rgb(9, 9, 9);
+}

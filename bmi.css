@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+    text-align: center;
+    margin-top: 18%;
+    background-image: url('https://wallpapercave.com/wp/wp2333032.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-color: black;
+  
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+  }
+  
+  h1 {
+    color:rgb(248, 251, 251);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 2px solid #d43838; 
+    margin-right: 15px;
+  }
+  
+  button {
+    background-color:aqua;
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid black;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  button:hover
+  {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+  }
+.wh
+{
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.Enter
+{
+  background-color: transparent;
+  color: #b3adad;
+}

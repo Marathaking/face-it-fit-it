@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FACE IT,FIT IT</title>
+  <link rel="stylesheet" type="text/css" href="bmi.css">
+  <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+    />
+    <link rel="shortcut icon" href="img/im.webp" type="image/x-icon">
+
+</head>
+<body>
+  <div class="container">
+    <label class="wh" for="weight">Weight (KG):</label>
+    <input class="Enter" type="text" id="weight" placeholder="Enter weight in KG">
+    
+    <label class="wh" for="height">Height (CM):</label>
+    <input class="Enter" type="text" id="height" placeholder="Enter height in CM">
+    
+    <button onclick="calculateBMI()">Calculate BMI</button>
+    
+    <div id="result"></div>
+  </div>
+  
+  <script src="bmi.js"></script>
+</body>
+</html>

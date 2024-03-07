@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="img/im.webp" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>FACE IT,FIT IT</title>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"><img src="img/im.webp" alt="logo" /></a>FACE IT,FIT IT
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><i class="ri-home-fill"></i><a href="#home">Home</a></li>
+        <li class="link"><i class="ri-file-history-fill"></i><a href="#about">About</a></li>
+        <li class="link"><i class="ri-git-repository-fill"></i><a href="#class">Classes</a></li>
+        <li class="link"><i class="ri-presentation-fill"></i><a href="#trainer">Trainers</a></li>
+        <li class="link"><i class="ri-price-tag-fill"></i><a href="#price">Pricing</a></li>
+        <li class="link"><i class="ri-login-box-fill"></i><a href="log.html">Login</a> </li>
+      </ul>
+    </nav>
+
+    <br><br>
+    <div class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="img/be-Photoroom.png-Photoroom.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h4>Shape Yourself! </h4>
+        <h1 class="section__header">Love Yourself!</h1>
+        <p>
+          if you want something you've never had,you must be willing to do something you've never done.....
+        </p>
+        <div class="header__btn">
+          <button class="btn" id="button" onclick="display()" ><a href="#price">Join Us</a></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <br><br>
+  <section class="section__container about__container" id="about">
+    <div class="about__image">
+      <img src="img/history.jpg" alt="about" />
+    </div>
+    <div class="about__content">
+      <h2 class="section__header">About</h2>
+      <p class="section__description">
+        Led by our team of expert and motivational instructors, "The Class You
+        Will Get Here" is a high-energy, results-driven session that combines
+        a perfect blend of cardio, strength training, and functional
+        exercises.
+      </p>
+      <div class="about__grid">
+        <div class="about__card">
+          <span><i class="ri-open-arm-line"></i></span>
+          <div>
+            <h4>Open Door Policy</h4>
+            <p>
+              We believe in providing unrestricted access to all individuals.
+
+            </p>
+          </div>
+        </div>
+        <div class="about__card">
+          <span><i class="ri-shield-cross-line"></i></span>
+          <div>
+            <h4>Fully Insured</h4>
+            <p>
+              MAIN GOAL: Your peace of mind is our top priority, and our commitment to
+              your safety extends to every aspect of your fitness journey.
+            </p>
+          </div>
+        </div>
+        <div class="about__card">
+          <span><i class="ri-p2p-line"></i></span>
+          <div>
+            <h4>Personal Trainer</h4>
+            <p>With personalized workout plans better body,better life.
+              !fitness is a lifestyle,not a trend!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container class__container" id="class">
+    <h2 class="section__header">Our Works</h2>
+    <h3>what we provides....!</h3>
+    <p class="section__description">
+      Whether you're a seasoned athlete or just starting your fitness journey,
+      our classes offer something for everyone. From strength training to
+      yoga and Pilates, we have something for everyone.
+    </p>
+    <div class="class__grid">
+      <div class="class__card">
+
+        <video controls src="img/abs.mp4" alt="class"></video>
+        <div class="class__content">
+          <h4>Strength Training</h4>
+          <p>Resistance Training</p>
+        </div>
+      </div>
+      <div class="class__card">
+
+        <video controls src="img/WhatsApp Video 2024-02-25 at 13.09.19_add235c6.mp4" alt="class"></video>
+
+        <div class="class__content">
+          <h4>Flexibility & Mobility</h4>
+          <p>Yoga & Pilates</p>
+        </div>
+      </div>
+      <div class="class__card">
+
+        <video controls src="img/back.mp4" alt="class"></video>
+        <div class="class__content">
+          <h4>HIIT</h4>
+          <p>Circuit Training</p>
+        </div>
+      </div>
+      <div class="class__card">
+        <video controls src="img/zumba.mp4" alt="class"></video>
+        <div class="class__content">
+          <h4>Group Fitness</h4>
+          <p>Zumba or Dance</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container trainer__container" id="trainer">
+    <h2 class="section__header"> Trainers</h2>
+    <p class="section__description">
+    <h2> Our trainers are more than just experts in exercise.</h2>
+    <br>
+    <h1>they are passionate about helping you achieve your health and fitness goals. Our trainers
+      are equipped to tailor workout programs to meet your unique needs.</h1>
+    </p>
+    <div class="trainer__grid">
+      <div class="trainer__card">
+        <img src="img/adddddddddd.jpg" alt="trainer" />
+      </div>
+      <div class="trainer__card">
+        <div class="trainer__content">
+          <h4>KING</h4>
+          <h5>Strength and Conditioning</h5>
+          <hr />
+          <p>
+            With a background in competitive sports, he's dedicated to helping
+            you reach your peak physical performance.
+          </p>
+          <div class="trainer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-google-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="trainer__card">
+        <img src="img/cy.jpg" alt="trainer" />
+      </div>
+      <div class="trainer__card">
+        <div class="trainer__content">
+          <h4>@DI</h4>
+          <h5>HIIT and Functional</h5>
+          <hr />
+          <p>
+            His energetic and dynamic workouts are designed to push your
+            limits, boost metabolism, and torch calories.
+          </p>
+          <div class="trainer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-google-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="trainer__card">
+        <img src="img/cccc.jpg" alt="trainer" />
+      </div>
+      <div class="trainer__card">
+        <div class="trainer__content">
+          <h4>NAYARA</h4>
+          <h5>Yoga and Mindfulness</h5>
+          <hr />
+          <p>
+            Emily's sessions are about physical postures and also about
+            cultivating inner peace and mindfulness.
+          </p>
+          <div class="trainer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-google-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container price__container" id="price">
+    <h2 class="section__header" id="plan"> Plans</h2>
+    <p class="section__description">
+      Our pricing plan comes with various membership tiers, each tailored to
+      cater to different preferences and fitness aspirations.
+    </p>
+    <div class="price__grid">
+      <div class="price__card">
+        <div class="price__content">
+          <h4>Basic Plan</h4>
+          <img src="img/ppic4.jpg" alt="price" />
+          <p>
+            Our Basic Plan is the perfect starting point for individuals
+            looking to kickstart their fitness journey or maintain an active
+            lifestyle.
+          </p>
+          <hr />
+          <h4>Key Features</h4>
+          <p>Smart workout plan</p>
+          <p>At home workouts</p>
+        </div>
+        <button class="btn">Join Now</button>
+      </div>
+      <div class="price__card">
+        <div class="price__content">
+          <h4>Weekly Plan</h4>
+          <img src="img/ppic2.png" alt="price" />
+          <p>
+            Our weekly plan is designed to provide structure and variety to
+            your workouts, ensuring you stay motivated and on track.
+          </p>
+          <hr />
+          <h4>Key Features</h4>
+          <p>PRO Gyms</p>
+          <p>Smart workout plan</p>
+          <p>At home workouts</p>
+        </div>
+        <button class="btn">Join Now</button>
+      </div>
+      <div class="price__card">
+        <div class="price__content">
+          <h4>Monthly Plan</h4>
+          <img src="img/ppic3.png" alt="price" />
+          <p>
+            With this flexible membership, you'll have access to our
+            state-of-the-art gym facilities, expert trainers, and a vibrant
+            fitness community
+          </p>
+          <hr />
+          <h4>Key Features</h4>
+          <p>ELITE Gyms & Classes</p>
+          <p>PRO Gyms</p>
+          <p>Smart workout plan</p>
+          <p>At home workouts</p>
+          <p>Personal Training</p>
+        </div>
+        <button class="btn">Join Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container client__container" id="client">
+    <h2 class="section__header">What People Says About Us?</h2>
+    <p class="section__description">
+      These testimonials serve as a testament to our commitment to helping
+      individuals achieve their fitness goals, and fostering a supportive
+      environment for everyone who walks through our doors.
+    </p>
+
+    <div class="swiper">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="client__card">
+            <div class="image-container">
+
+              <img src="img/nut.jpg" alt="client" />
+            </div>
+            <div class="client__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+            <p>
+              The trainers here customized a plan that balanced my work-life
+              demands, and I've seen remarkable progress in my fitness
+              journey. It's not just a gym; it's my sanctuary for self-care.
+            </p>
+            <h4>NUT@N</h4>
+            <h5>Web Dev</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <div class="image-container">
+
+              <img src="img/adi.jpg" alt="client" />
+            </div>
+            <div class="client__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+            </div>
+            <p>
+              The trainers' expertise and the gym's commitment to cleanliness
+              during these times have made it a safe haven for me to maintain
+              my health and de-stress.
+            </p>
+            <h4>ADITY@</h4>
+            <h5>Hacker</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <div class="image-container">
+              <img src="img/smita.jpg" alt="client" />
+
+            </div>
+            <div class="client__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+            <p>
+              The variety of classes and the supportive community have kept me
+              motivated. I've shed pounds, gained confidence, and found a new
+              level of energy to inspire my students.
+            </p>
+            <h4>SMITA</h4>
+            <h5>Teacher</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <div class="image-container">
+
+              <img src="img/bangada.jpg" alt="client" />
+            </div>
+            <div class="client__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              This gym's 24/7 access has been a lifesaver. Whether it's a
+              late-night workout or an early morning session, the convenience
+              here is unbeatable.
+            </p>
+            <h4>SAMAPDA</h4>
+            <h5>Shape</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#"><img src="img/im.webp" alt="logo" />FACE IT,FIT IT</a>
+        </div>
+        <p>
+          Take the first step towards a healthier, stronger you with our
+          unbeatable pricing plans. Let's sweat, achieve, and conquer
+          together!
+        </p>
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/login/"><i class="ri-facebook-fill"></i></a>
+          <a href="https://www.instagram.com/face_it_fit_it/?hl=en"><i class="ri-instagram-line"></i></a>
+          <a href="https://twitter.com/i/flow/login"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <div class="footer__links">
+          <a href="bus.html"><i class="ri-building-fill"></i>Business</a>
+          <a href="frenchise.html"><i class="ri-tent-fill"></i>Franchise</a>
+          <a href="partnership.html"><i class="ri-shake-hands-fill"></i>Partnership</a>
+          <a href="network.html"><i class="ri-line-chart-fill"></i>Network</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>About </h4>
+        <div class="footer__links">
+          <a href="blog.html"><i class="ri-camera-2-fill"></i>Blogs</a>
+          <a href="security.html"><i class="ri-git-repository-private-fill"></i>Security</a>
+          <a href="career.html"><i class="ri-folder-fill"></i>Careers</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <div class="footer__links">
+          <a href="contus.html"><i class="ri-contacts-fill"></i>Contact Us</a>
+          <a href="privacy.html"><i class="ri-mail-forbid-fill"></i>Privacy Policy</a>
+          <a href="terms.html"><i class="ri-terminal-window-fill"></i>Terms & Conditions</a>
+          <a href="bmi.html"><i class="ri-speed-up-fill"></i>BMI Calculator</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <h1>Let's Go....!</h1>
+      <p> </p>
+      <p>Start Your Journey Now</p>
+
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
