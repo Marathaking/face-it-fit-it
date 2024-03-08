@@ -1,4 +1,4 @@
-/*const menuBtn = document.getElementById("menu-btn");
+const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 
@@ -75,7 +75,10 @@ const swiper = new Swiper(".swiper", {
   loop: true,
   slidesPerView: "auto",
   spaceBetween: 20,
-});*/
+});
+
+
+
 
 document.addEventListener('DOMContentLoaded', function() {
   // Get the form element
