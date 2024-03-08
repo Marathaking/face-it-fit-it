@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
       };
 
       // Make a POST request to the server
-      fetch('http://localhost:3000/signup', {
+      fetch('https://face-it-fit-it-backend.onrender.com/signup', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
       };
 
       // Make a POST request to the server
-      fetch('http://localhost:3000/login', {
+      fetch('https://face-it-fit-it-backend.onrender.com/login', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'
